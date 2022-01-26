@@ -37,12 +37,13 @@
         />
 
     <Button
+        android:id="@+id/share_button"
         style="@style/GameOptionButton"
         android:onClick="onButtonClick2"
-        android:text="Share StackOverflow"
-        app:layout_constraintLeft_toLeftOf="@id/button"
-        app:layout_constraintRight_toRightOf="@id/button"/>
+        android:text="StackOverflow"
+        app:layout_constraintLeft_toRightOf="@+id/change_color_button" />
 
+    />
     <Button
         android:id="@+id/button"
         style="@style/GameOptionButton"
